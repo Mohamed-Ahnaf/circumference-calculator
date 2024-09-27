@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circumference Calculation</title>
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+    body{
+        background-color: antiquewhite;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Kanit", sans-serif;
+        
+    }
+    .design{
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        margin: 50px;
+        width: 500px;
+        background-image: url(6ce591dd-0e1c-4638-894b-0e95061933c1.jpg);
+        background-size: cover;
+        box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    #submit{
+        margin-top:10px;
+    }
+
+    #radius-input{
+        margin-top:10px;
+    }
+
+    #output{
+        border: 2px solid grey;
+        padding: 10px;
+        width: auto;
+        text-align: center;
+        margin-top:10px;
+
+    }
+
+
+    @media (max-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .design {
+        width: auto; 
+        margin: 20px; /* Reduce margin around the design */
+        padding: 15px; /* Increase padding for better touch targets */
+    }
+
+    h1 {
+        font-size: 24px; /* Smaller font size for the title */
+    }
+
+    label {
+        font-size: 16px; /* Adjust label font size */
+    }
+
+    input {
+        width: 100%;
+        padding: 10px; 
+        margin-top: 5px; 
+    }
+
+    button {
+        width: 100%; /* Full width for the button */
+        padding: 10px; /* Add padding for better usability */
+        margin-top: 10px; /* Spacing above the button */
+        font-size: 16px; /* Slightly larger font for readability */
+    }
+
+    #output {
+        font-size: 18px; 
+        padding: 15px;
+    }
+
+    
+}
+
+.copyright{
+        text-align: center;
+    }
+
+</style>
+
+    
+</head>
+<body>
+   <div class="design">
+    <h1 id="myh1">Circumference Calculator</h1>
+    <label>ENTER RADIUS</label>
+    <input id="radius-input">
+    <button id="submit">SUBMIT</button>
+    <h5 id="output">OutPut.......</h5>
+</div>
+
+
+<div class="copyright">
+    Copyright © Abdul Ajeez Mohamed Ahnaf [2024,Circumference]. All rights reserved.
+</div>
+
+
+    
+    <script src="indjs.js"></script>
+</body>
+</html>
